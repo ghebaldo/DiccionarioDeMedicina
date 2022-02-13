@@ -1,0 +1,39 @@
+HTTrack3.49-2+libhtsjava.so.2 launched on Sun, 13 Feb 2022 00:06:50 at http://https://www.diccionario-medico.com.ar/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -Y http://https://www.diccionario-medico.com.ar/ -O "/home/m0rniac/Desktop/HTML/DICTIONARY" -n -t -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+00:06:52	Warning: 	Note: due to https://www.diccionario-medico.com.ar remote robots.txt rules, links beginning with these path will be forbidden: /admin, /includes, /images, /pub, /temp, /download (see in the options to disable this)
+00:07:22	Warning: 	Unexpected socket error during pre-loop
+00:07:24	Warning: 	Unexpected socket error during pre-loop
+00:30:16	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.diccionario-medico.com.ar/ginecomastia-p-676.html (from https://www.diccionario-medico.com.ar/letrag-c-768.html)
+00:30:19	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.diccionario-medico.com.ar/hemorragia-p-720.html (from https://www.diccionario-medico.com.ar/letrah-c-769.html)
+00:31:19	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.diccionario-medico.com.ar/iris-p-801.html (from https://www.diccionario-medico.com.ar/letrai-c-770.html)
+00:34:48	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.diccionario-medico.com.ar/agenesia-p-35.html (from https://www.diccionario-medico.com.ar/letraa-c-762.html?page=2&sort=1a)
+00:34:48	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.diccionario-medico.com.ar/agnosia-p-37.html (from https://www.diccionario-medico.com.ar/letraa-c-762.html?page=2&sort=1a)
+00:34:48	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.diccionario-medico.com.ar/anfibolia-p-83.html (from https://www.diccionario-medico.com.ar/letraa-c-762.html?page=3&sort=1a)
+00:34:50	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.diccionario-medico.com.ar/azoemia-p-175.html (from https://www.diccionario-medico.com.ar/letraa-c-762.html?page=6&sort=1a)
+00:34:54	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.diccionario-medico.com.ar/brazo-p-211.html (from https://www.diccionario-medico.com.ar/letrab-c-763.html?page=2&sort=1a)
+00:34:59	Warning: 	Retry after error -4 (Receive Error) at link pagead2.googlesyndication.com/pagead/js/adsbygoogle.js (from https://www.diccionario-medico.com.ar/)
+00:34:59	Warning: 	Retry after error -4 (Receive Error) at link www.google-analytics.com/analytics.js (from https://www.diccionario-medico.com.ar/)
+00:35:00	Warning: 	Unexpected socket error during pre-loop
+00:35:00	Warning: 	Unexpected socket error during pre-loop
+00:35:04	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://www.google.com/recaptcha/api.js (from https://www.diccionario-medico.com.ar/contact_us.php)
+00:35:04	Warning: 	Retry after error -4 (Receive Error) at link pagead2.googlesyndication.com/pagead/js/adsbygoogle.js (from https://www.diccionario-medico.com.ar/)
+00:35:05	Warning: 	Unexpected socket error during pre-loop
+00:35:06	Warning: 	Retry after error -4 (Receive Error) at link www.google-analytics.com/analytics.js (from https://www.diccionario-medico.com.ar/)
+00:35:06	Error: 	"Not Found" (404) at link https://www.diccionario-medico.com.ar/_8.src (from https://secure.statcounter.com/counter/counter.js)
+00:35:06	Error: 	"Not Found" (404) at link https://www.diccionario-medico.com.ar/statcounter.com/counter/counter.js (from https://secure.statcounter.com/counter/counter.js)
+00:35:06	Error: 	"Not Found" (404) at link https://www.diccionario-medico.com.ar/statcounter.com/counter/counter_test.js (from https://secure.statcounter.com/counter/counter.js)
+00:35:07	Warning: 	Unexpected socket error during pre-loop
+00:35:08	Error: 	"Not Found" (404) at link https://www.diccionario-medico.com.ar/statcounter.com/localstorage/ (from https://secure.statcounter.com/counter/counter.js)
+00:35:08	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://www.google.com/recaptcha/api.js (from https://www.diccionario-medico.com.ar/contact_us.php)
+00:35:08	Error: 	"Receive Error" (-4) after 2 retries at link pagead2.googlesyndication.com/pagead/js/adsbygoogle.js (from https://www.diccionario-medico.com.ar/)
+00:35:08	Error: 	"Receive Error" (-4) after 2 retries at link www.google-analytics.com/analytics.js (from https://www.diccionario-medico.com.ar/)
+00:35:09	Error: 	"error:00000005:lib(0):func(0):DH lib" (-5) after 2 retries at link https://www.google.com/recaptcha/api.js (from https://www.diccionario-medico.com.ar/contact_us.php)
+
+HTTrack Website Copier/3.49-2 mirror complete in 28 minutes 19 seconds : 1454 links scanned, 1432 files written (32715457 bytes overall) [5056731 bytes received at 2976 bytes/sec], 32702064 bytes transferred using HTTP compression in 1430 files, ratio 14%, 48.3 requests per connection
+(7 errors, 21 warnings, 0 messages)
